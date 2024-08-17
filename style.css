@@ -1,0 +1,552 @@
+body {
+    height: 100vh;
+    /* box-sizing: border-box; */
+    background: rgba(22, 23, 29, 1);
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* fonts to be used soon */
+    /*  */
+    /* font-weight: 500; */
+    /* font-weight: 600; */
+    /* font-weight: 700; */
+}
+
+.nar-bar {
+    /* position: fixed; */
+    top: 0;
+    height: 16%;
+    /* width: 100%; */
+    background: rgba(22, 23, 29, 1);
+    padding-inline: 30px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 7rem;
+    margin-top: 1.7rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.title-icon {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 52px;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-orange {
+    margin-left: -7px;
+    margin-top: 10px;
+    color: rgba(245, 194, 73, 1);
+}
+
+.icon-container li a {
+    text-decoration: none;
+    color: rgba(167, 174, 191, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-inline: 7px;
+    margin-top: 2px;
+}
+
+.list-nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.li-btn {
+    margin-right: 6rem;
+    margin-top: 1.4rem;
+}
+
+.Connect-wallet {
+    color: black;
+    background-color: rgba(245, 194, 73, 1);
+    padding-inline: 1.25rem;
+    padding-block: 0.75rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.left-entry-container h1 {
+    width: 30rem;
+}
+
+/* navbar styling ended here */
+
+/* first section styling now */
+
+.entry-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 10rem;
+    height: 37rem;
+    /* width: 99.5%; */
+    /* border-bottom: 2px solid white; */
+}
+
+.common-entry-class {
+    margin-inline: 4rem;
+}
+
+#first-img {
+    /* width: 79%; */
+    width: 500px;
+}
+
+.entry-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+.entry-para {
+    color: rgba(120, 122, 141, 1);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.Connect-wallet-2-btn {
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(245, 194, 73, 1);
+    padding-inline: 1.25rem;
+    padding-block: 0.75rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ###################### styling cards now ########################## */
+.cards {
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 2rem;
+    width: 76rem;
+    height: 19rem;
+    margin-block: 3rem;
+    margin-inline: 4rem;
+
+}
+
+.cards-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+}
+
+.card-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 19rem;
+    background-color: transparent;
+    border: 2px solid rgba(120, 122, 141, 1);
+    border-radius: 10px;
+}
+
+.cards-images-all {
+    /* width: 100%; */
+    width: 2.512rem;
+    margin-top: 0rem;
+}
+
+.cards-heading {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: white;
+}
+
+.img-container-all-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* .entry-para
+{
+   
+} */
+.cards-para {
+    color: rgba(120, 122, 141, 1);
+    font-size: 1rem;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+
+/* ######################## input section styling###################### */
+.input-section {
+    width: 71.75rem;
+    height: 31.37rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    margin-inline: 7rem;
+    margin-top: 15rem;
+    /* border: 2px solid wheat; */
+}
+
+.container-middle {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-middle img {
+    max-width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 26.9rem;
+    width: 26.6rem;
+    border-radius: 12px;
+    background-color:
+        rgba(33, 36, 45, 1);
+    margin-right: 2rem;
+}
+
+.input-all {
+    background-color: rgba(22, 23, 29, 1);
+    font-size: 1rem;
+    width: 22rem;
+    height: 3.5rem;
+    margin-inline: 1.5rem;
+    margin-block: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    box-shadow: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.send-btn {
+    border: 0;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-block: 0.7rem;
+    background-color:
+        rgba(245, 194, 73, 1);
+    padding: 0.8rem 0.8rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* ########################### 3rd portion styling cards again ############################ */
+.cards-container-three {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-around;
+}
+
+.card-3rd-portion {
+    /* border: 2px solid wheat; */
+    margin-block: 18rem;
+    margin-inline: 8rem;
+}
+
+.heading-cards {
+    line-height: 4rem;
+    color: white;
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+    margin-left: 2.4rem;
+}
+
+.card {
+    /* border: 2px solid white; */
+    width: 291px;
+    /* height: 350px; */
+    background: rgba(33, 36, 45, 1);
+    border-radius: 10px;
+}
+
+.card img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0.8rem;
+
+}
+
+.card-details {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    /* padding-top: 0.5rem; */
+}
+
+.new-cards-sp-color {
+    color: rgba(120, 122, 141, 1);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inner-span-all {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#input-display-time {
+    background: rgba(245, 194, 73, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    width: 8.3rem;
+    margin-inline: 5rem;
+    position: relative;
+    bottom: 2.5rem;
+    border-radius: 4px;
+}
+
+/* ####################### Styling footer ################################## */
+
+.foot-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background: rgba(22, 23, 29, 1);
+    border-top: 0.5px solid rgba(95, 97, 110, 0.2);
+}
+
+.footer-icon {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 52px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-orange {
+    margin-left: -7px;
+    margin-top: 10px;
+    color: rgba(245, 194, 73, 1);
+}
+
+.middle-icon-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#twitter-ic {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+#linkdin-ic {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+}
+
+#fb-ic {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+}
+
+#Copyright-sp {
+    font-size: 0.9rem;
+    color: rgba(120, 122, 141, 1);
+}
+
+/* ###########################  for 1200px ###############################   */
+@media (max-width: 1200px) {
+    .nar-bar {
+        padding-inline: 0;
+    }
+
+    .icon-container {
+        margin-left: 40px;
+    }
+
+    .li-btn {
+        margin-right: 40px;
+    }
+
+    .entry-container {
+        padding-inline: 0;
+    }
+
+    .left-entry-container {
+        margin-right: 0;
+    }
+
+    .right-entry-container {
+        margin-inline: 0;
+    }
+
+    .cards {
+        height: 0rem;
+        width: 0rem;
+        margin-inline: 6rem;
+        width: 16rem;
+        justify-content: flex-start;
+        margin-left: 8px;
+        padding-left: 0;
+    }
+}
+
+/* (min-width: 100px) and */
+/* making responsive for max width 450px and above */
+@media  (max-width: 500px) {
+    .nav-bar {
+        padding-inline: 94px;
+    }
+
+    .list-nav {
+        gap: 5rem;
+    }
+
+    .title {
+        width: 174px;
+    }
+
+    .entry-container {
+        flex-wrap: wrap;
+        margin-bottom: 20rem;
+    }
+
+    .left-entry-container {
+        margin-inline: 4rem;
+        order: 2;
+    }
+
+    .entry-heading {
+        font-size: 3.5rem;
+    }
+
+    .left-entry-container h1 {
+        width: 40rem;
+    }
+
+    .entry-para {
+        margin-inline: 7rem;
+    }
+
+    .entry-btn {
+        margin-inline: 12rem;
+    }
+
+    .Connect-wallet-2-btn {
+        margin-top: 2rem;
+    }
+
+    .right-entry-container {
+        order: 1;
+        margin-inline: 6rem;
+    }
+
+    .cards {
+        margin-inline: 94px;
+
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .card-1-container {
+        width: 32rem;
+    }
+
+    .input-section {
+        flex-direction: column;
+        margin-left: -203px;
+        margin-top: 1000px;
+        /* padding-inline: 7rem; */
+        justify-content: flex-start;
+        height: 31.37rem;
+        width: 51rem;
+    }
+
+    .form-container {
+        margin-left: 21rem;
+    }
+
+    .card-3rd-portion {
+        margin-block: 35rem;
+        margin-inline: 5rem;
+        margin-bottom: 280px;
+        width: 16rem;
+    }
+
+    .heading-cards {
+        width: 30rem;
+        margin-left: 0;
+        margin-right: 5rem;
+        font-size: 2.9rem;
+    }
+
+    #input-display-time {
+        width: 17.3rem;
+        font-size: 2rem;
+        margin-inline:6rem;
+    }
+    .card-details
+    {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+    .new-cards-sp-color
+    {
+       margin-left: 2rem;
+    }
+    .inner-span-all
+    {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .cards-container-three {
+        row-gap: 3rem;
+        margin-inline: 2rem;
+        width: 30rem;
+    }
+
+    .container-middle {
+        padding-left: 17rem;
+        max-width: 710px;
+    }
+
+    .card {
+        width: inherit;
+    }
+
+}
